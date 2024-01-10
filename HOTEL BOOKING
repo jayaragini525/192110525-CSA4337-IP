@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking System</title>
+</head>
+<body>
+    <h1>Welcome to Our Hotel Booking System</h1>
+    <a href="register.php">Register</a> |
+    <a href="login.php">Login</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form action="register_process.php" method="post">
+        <!-- Add registration fields here -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+<?php
+// Add user registration logic here
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+</head>
+<body>
+    <h2>User Login</h2>
+    <form action="login_process.php" method="post">
+        <!-- Add login fields here -->
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+<?php
+// Add user login logic here
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <h2>Welcome, User</h2>
+    <ul>
+        <li><a href="view_profile.php">View/Modify Profile</a></li>
+        <li><a href="book_room.php">Book a Room</a></li>
+        <li><a href="booking_history.php">Booking History</a></li>
+        <!-- Add other user functionalities as needed -->
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View/Modify Profile</title>
+</head>
+<body>
+    <h2>View/Modify Profile</h2>
+    <!-- Display user profile information here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Room</title>
+</head>
+<body>
+    <h2>Book a Room</h2>
+    <form action="book_room_process.php" method="post">
+        <!-- Add room booking fields here -->
+        <input type="submit" value="Book Room">
+    </form>
+</body>
+</html>
+<?php
+// Add room booking logic here
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking History</title>
+</head>
+<body>
+    <h2>Booking History</h2>
+    <!-- Display user booking history here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h2>Welcome, Admin</h2>
+    <ul>
+        <li><a href="manage_rooms.php">Manage Rooms</a></li>
+        <li><a href="manage_bookings.php">Manage Bookings</a></li>
+        <li><a href="modify_static_pages.php">Modify Static Pages</a></li>
+        <!-- Add other admin functionalities as needed -->
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Rooms</title>
+</head>
+<body>
+    <h2>Manage Rooms</h2>
+    <!-- Display and edit room information here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bookings</title>
+</head>
+<body>
+    <h2>Manage Bookings</h2>
+    <!-- Display and manage booking information here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Static Pages</title>
+</head>
+<body>
+    <h2>Modify Static Pages</h2>
+    <!-- Allow administrators to modify static pages -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Types Information</title>
+</head>
+<body>
+    <h2>Room Types Information</h2>
+    <!-- Display basic room type introduction -->
+</body>
+</html>
